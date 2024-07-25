@@ -43,7 +43,7 @@ heic_speed: 8
 source_image_request_timeout: 5
 
 # When set to true the generated image will be deleted from the cache in web/upload and served directly in the response
-disable_cache: false
+disable_cache: true
 
 # When supported by the browser, AVIF format will be served as default output
 enable_avif: true
